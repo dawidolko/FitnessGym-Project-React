@@ -1,92 +1,108 @@
-# FitnessGym
+# 🏋️ FitnessGym Website (React, JavaScript, SCSS)
 
-## Project Description
+> **Case:** Build a modern and fully responsive fitness website offering dynamic features such as a product shop, trainer profiles, gym services, and interactive schedules. Deliver an engaging platform for fitness enthusiasts.
 
-**FitnessGym Website** is a modern, responsive frontend project built with **React**, **JavaScript**, **CSS**, and **SCSS/SASS** technologies. This website offers users an engaging platform to explore gym facilities, browse fitness programs, and interact with dynamic features such as class schedules, trainer profiles, and a product shop for supplements.
+> **Tech Stack:** `React`, `JavaScript (ES6+)`, `CSS3`, `SCSS/SASS`, `Git`.
 
-The site boasts a sleek design, user-friendly navigation, and seamless performance, delivering an enhanced experience for fitness enthusiasts.
+---
 
-## Availability
+## 🚀 Usage
 
-The website is available at: [fitnessgym.dawidolko.pl](https://fitnessgym.dawidolko.pl)
+### Running the Project Locally
 
-## Features
-
-- **Interactive Product Shop**:
-
-  - Wide range of fitness products, including supplements like proteins, creatine, and pre-workouts.
-  - Each product features a detailed description, price, and image.
-  - Dynamic cart functionality for an intuitive shopping experience.
-
-- **Gym Services**:
-
-  - Explore gym facilities, available classes, and schedules.
-  - Profiles of trainers showcasing their expertise and qualifications.
-
-- **Responsive Design**:
-
-  - Optimized for mobile, tablet, and desktop devices for consistent performance.
-
-- **Dynamic Frontend**:
-
-  - Features like category filters, search functionality, and interactive buttons.
-
-- **Aesthetic User Interface**:
-  - Styled with **SCSS/SASS**, offering organized and reusable CSS components.
-
-## Technologies
-
-- **React**: For building a dynamic and interactive user interface.
-- **CSS3 / SCSS / SASS**: For modern and responsive styling.
-- **JavaScript (ES6+)**: For dynamic and client-side functionality.
-- **Git**: For version control and project collaboration.
-
-## Directory Structure Project
-
-```plaintext
-├── public/           # Public files
-├── src/              # Source code
-│   ├── assets/       # Images and static assets
-│   ├── components/   # React components
-│   ├── pages/        # Page components
-│   ├── styles/       # Global and modular SCSS styles
-│   └── App.js        # Main application entry point
-├── package.json      # Project metadata and dependencies
-└── README.md         # Project documentation
-```
-
-## How to Run the Project Locally?
-
-1. Clone the repository:
+- Clone the repository:
 
 ```bash
 git clone https://github.com/dawidolko/FitnessGym-Website.git
-```
-
-2. Navigate to the project directory:
-
-```bash
 cd FitnessGym-Website
 ```
 
-3. Install dependencies:
+- Install project dependencies:
 
 ```bash
 npm install
 ```
 
-4. Start the development server:
+- Start the development server:
 
 ```bash
 npm start
 ```
 
-5. Open the site in your browser at `http://localhost:3000`.
+- Open the application in your browser at [http://localhost:3000](http://localhost:3000)
 
-## Author
+---
 
-The website was created by **Dawid Olko** as part of the **FitnessGym** project.
+## 📈 Features
 
-## License
+- **Interactive Product Shop:**
+  - Browse a range of fitness supplements: proteins, creatine, pre-workouts.
+  - View detailed product descriptions, pricing, and images.
+  - Add products dynamically to the shopping cart.
 
-This project is released under the MIT license. Details are available in the `LICENSE` file.
+- **Gym Services Section:**
+  - Explore gym facilities, available classes, and detailed schedules.
+  - Browse trainers' profiles, showcasing their specialties and certifications.
+
+- **Responsive Design:**
+  - Optimized for a flawless experience across mobile, tablet, and desktop devices.
+
+- **Dynamic Frontend:**
+  - Search functionality, product category filters, and interactive UI components.
+
+- **Aesthetic & Modular UI:**
+  - Clean, reusable SCSS/SASS structure for scalable styling and theming.
+
+---
+
+## 🧠 Technologies
+
+- **React** – Component-based dynamic frontend architecture.
+- **JavaScript (ES6+)** – Logic for interactivity and dynamic behaviors.
+- **SCSS / SASS** – Structured and reusable CSS styling.
+- **Git** – Version control and project collaboration.
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+FitnessGym-Website/
+├── public/            # Static public files
+├── src/
+│   ├── assets/        # Images and media
+│   ├── components/    # Reusable React components
+│   ├── pages/         # Main page components (Home, Shop, Trainers, etc.)
+│   ├── styles/        # Global and modular SCSS styles
+│   └── App.js         # Main application entry point
+├── package.json       # Project dependencies and metadata
+└── README.md          # Project documentation
+```
+
+---
+
+## 🖼️ Screenshots
+
+[<img src="src/assets/fitnessgym.dawidolko.pl_.png" width="80%"/>](src/assets/fitnessgym.dawidolko.pl_.png)
+
+---
+
+## 🌍 Availability
+
+The project is deployed and available at:  
+[**https://fitnessgym.dawidolko.pl**](https://fitnessgym.dawidolko.pl)
+
+---
+
+## 📜 License
+
+The **FitnessGym** project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ Author
+
+Created by **Dawid Olko**  
+> Part of the **FitnessGym** project series.
+
+---
