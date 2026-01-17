@@ -143,5 +143,3 @@ Created by **Dawid Olko** - Part of the **FitnessGym** project series.
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
-
-⭐ **Found this helpful?** Give it a star and share with fellow React developers!
