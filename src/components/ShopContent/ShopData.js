@@ -1,23 +1,23 @@
-import protein1 from "../../assets/protein1.png";
-import protein2 from "../../assets/protein2.png";
-import protein3 from "../../assets/protein3.png";
-import protein4 from "../../assets/protein4.png";
-import protein5 from "../../assets/protein5.png";
-import protein6 from "../../assets/protein6.png";
-import protein7 from "../../assets/protein7.png";
+import protein1 from "../../assets/protein1.webp";
+import protein2 from "../../assets/protein2.webp";
+import protein3 from "../../assets/protein3.webp";
+import protein4 from "../../assets/protein4.webp";
+import protein5 from "../../assets/protein5.webp";
+import protein6 from "../../assets/protein6.webp";
+import protein7 from "../../assets/protein7.webp";
 
-import creatine1 from "../../assets/creatine1.png";
-import creatine2 from "../../assets/creatine2.png";
-import creatine3 from "../../assets/creatine3.png";
-import creatine4 from "../../assets/creatine4.png";
-import creatine5 from "../../assets/creatine5.png";
-import creatine6 from "../../assets/creatine6.png";
+import creatine1 from "../../assets/creatine1.webp";
+import creatine2 from "../../assets/creatine2.webp";
+import creatine3 from "../../assets/creatine3.webp";
+import creatine4 from "../../assets/creatine4.webp";
+import creatine5 from "../../assets/creatine5.webp";
+import creatine6 from "../../assets/creatine6.webp";
 
-import preworkout1 from "../../assets/preworkout1.png";
-import preworkout2 from "../../assets/preworkout2.png";
-import preworkout3 from "../../assets/preworkout3.png";
-import preworkout4 from "../../assets/preworkout4.png";
-import preworkout5 from "../../assets/preworkout5.png";
+import preworkout1 from "../../assets/preworkout1.webp";
+import preworkout2 from "../../assets/preworkout2.webp";
+import preworkout3 from "../../assets/preworkout3.webp";
+import preworkout4 from "../../assets/preworkout4.webp";
+import preworkout5 from "../../assets/preworkout5.webp";
 
 const shopData = [
   {
