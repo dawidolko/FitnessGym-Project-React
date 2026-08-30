@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8cf1cebb.css",
-    "main.js": "/static/js/main.896d8204.js",
+    "main.js": "/static/js/main.e4ec66cb.js",
     "static/media/about.webp": "/static/media/about.56d14b7121777f09039a.webp",
     "static/media/testimonials.webp": "/static/media/testimonials.60e6519168efe9a3d3e7.webp",
     "static/media/fitness.webp": "/static/media/fitness.5d4896db580782d9f280.webp",
@@ -57,10 +57,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.8cf1cebb.css.map": "/static/css/main.8cf1cebb.css.map",
-    "main.896d8204.js.map": "/static/js/main.896d8204.js.map"
+    "main.e4ec66cb.js.map": "/static/js/main.e4ec66cb.js.map"
   },
   "entrypoints": [
     "static/css/main.8cf1cebb.css",
-    "static/js/main.896d8204.js"
+    "static/js/main.e4ec66cb.js"
   ]
 }
