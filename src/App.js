@@ -17,9 +17,25 @@ function App() {
 
   return (
     <ShopContext>
-      {/* First focusable element on every route: lets a keyboard user skip the
-          navigation and land on the page content. */}
-      <a className="skip-link" href="#main-content">
+      {/*
+        First focusable element on every route: lets a keyboard user skip the
+        navigation and land on the page content.
+
+        The href alone moves the caret but leaves the viewport where it was,
+        because <main> starts immediately under the fixed navbar — visually
+        nothing happened. Setting focus and scrolling by hand makes the jump
+        obvious for sighted keyboard users as well as screen reader users.
+      */}
+      <a
+        className="skip-link"
+        href="#main-content"
+        onClick={(event) => {
+          event.preventDefault();
+          const main = document.getElementById("main-content");
+          if (!main) return;
+          main.focus();
+          main.scrollIntoView({ behavior: "smooth", block: "start" });
+        }}>
         Skip to main content
       </a>
       <Navbar />
