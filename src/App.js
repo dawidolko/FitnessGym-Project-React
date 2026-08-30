@@ -31,10 +31,18 @@ function App() {
         href="#main-content"
         onClick={(event) => {
           event.preventDefault();
-          const main = document.getElementById("main-content");
-          if (!main) return;
-          main.focus();
-          main.scrollIntoView({ behavior: "smooth", block: "start" });
+          /*
+             Prefer the first section after the hero. <main> begins at the hero
+             banner, so focusing it left the viewport exactly where it started
+             and the skip link looked broken. Falling back to <main> keeps the
+             link working on routes that have no hero.
+          */
+          const target =
+            document.getElementById("main-start") ||
+            document.getElementById("main-content");
+          if (!target) return;
+          target.focus();
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
         }}>
         Skip to main content
       </a>

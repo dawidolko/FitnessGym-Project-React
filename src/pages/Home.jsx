@@ -14,7 +14,10 @@ const Home = () => {
   return (
     <AnimatedPage>
       <MainBackground />
-      <Fitness />
+      {/* Skip-link target: the first real content after the hero banner. */}
+      <div id="main-start" tabIndex={-1}>
+        <Fitness />
+      </div>
       <FixedBg
         cName="fixed"
         text="WHATEVER YOUR MOOD IS…"
