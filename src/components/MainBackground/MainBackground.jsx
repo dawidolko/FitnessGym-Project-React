@@ -21,10 +21,12 @@ const MainBackground = () => {
 				<AiOutlineArrowLeft className="mainBackground__arrows" />
 			</span>
 			<div className="mainBackground__container">
-				{sliderItems.map((item) => (
+				{sliderItems.map((item, index) => (
 					<MainBackgroundItem
 						key={item.id}
 						item={item}
+						index={index}
+						isActive={index === currentSlide}
 						currentSlide={currentSlide}
 					/>
 				))}

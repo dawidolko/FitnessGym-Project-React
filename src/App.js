@@ -17,8 +17,14 @@ function App() {
 
   return (
     <ShopContext>
+      {/* First focusable element on every route: lets a keyboard user skip the
+          navigation and land on the page content. */}
+      <a className="skip-link" href="#main-content">
+        Skip to main content
+      </a>
       <Navbar />
-      <Routes location={location}>
+      <main id="main-content" tabIndex={-1}>
+        <Routes location={location}>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/shop" element={<Shop />} />
@@ -28,7 +34,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/*" element={<NotFound />} />
-      </Routes>
+        </Routes>
+      </main>
       <Footer />
     </ShopContext>
   );
