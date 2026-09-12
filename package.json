@@ -33,12 +33,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && node scripts/static-routes.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "optimize:images": "node scripts/optimize-images.js"
+    "optimize:images": "node scripts/optimize-images.js",
+    "routes:static": "node scripts/static-routes.js"
   },
   "eslintConfig": {
     "extends": [
