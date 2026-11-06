@@ -70,7 +70,7 @@
       var saved = JSON.parse(localStorage.getItem(KEY) || "null");
       if (saved && SIZES.indexOf(saved.size) !== -1) state.size = saved.size;
       if (saved && Array.isArray(saved.on)) state.on = saved.on;
-    } catch (error) {
+    } catch {
       /* A corrupt or blocked store only means the defaults apply. */
     }
   }
@@ -78,7 +78,7 @@
   function write() {
     try {
       localStorage.setItem(KEY, JSON.stringify(state));
-    } catch (error) {
+    } catch {
       /* A blocked store only means the choice lasts for this page. */
     }
   }
