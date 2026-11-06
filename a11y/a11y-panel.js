@@ -60,7 +60,7 @@
     ["display", ["grayscale", "contrast", "invert", "light"]],
     ["reading", ["links", "font", "motion"]],
   ];
-  // Only one colour mode at a time, because they overwrite each other.
+  /* Only one colour mode at a time, because they overwrite each other. */
   var EXCLUSIVE = ["grayscale", "contrast", "invert", "light"];
   var root = document.documentElement;
   var state = { size: 100, on: [] };
@@ -94,7 +94,7 @@
     root.className = classes.join(" ");
   }
 
-  // Applied at once, so a saved contrast setting does not flash the normal page first.
+  /* Applied at once, so a saved contrast setting does not flash the normal page first. */
   read();
   apply();
 
@@ -242,7 +242,7 @@
     wrap.appendChild(toggle);
     document.body.appendChild(wrap);
     update();
-    // A framework can replace the body while it starts, so the panel checks it survived.
+    /* A framework can replace the body while it starts, so the panel checks it survived. */
     window.addEventListener("load", function () {
       setTimeout(function () {
         if (!wrap.isConnected) document.body.appendChild(wrap);
