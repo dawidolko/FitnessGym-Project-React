@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://fitnessgym.dawidolko.pl/"><img src="docs/readme/banner.webp" alt="FitnessGym: frontend. A gym site with a shop attached" width="100%"></a>
+</p>
+
 # FitnessGym
 
 > 🏋️ **A gym site with a shop attached** — React, scroll-driven sections and a cart that survives a refresh
@@ -13,7 +17,7 @@ It is a static build published to GitHub Pages: no backend, no accounts, and ima
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-deployed-222222?logo=githubpages&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**Live:** [fitnessgym.dawidolko.pl](https://fitnessgym.dawidolko.pl)
+**[Live site](https://fitnessgym.dawidolko.pl/)** · [Screenshots](#️-screenshots) · [Getting started](#-getting-started)
 
 ---
 
@@ -26,6 +30,15 @@ It is a static build published to GitHub Pages: no backend, no accounts, and ima
 - **Images converted before the build** — `npm run optimize:images` runs sharp over `src/assets` and writes WebP, so the deployed bundle ships the smaller format.
 - **Seven real pages** — home, about, shop, cart, blog, FAQ and contact, plus a 404, all routed client-side.
 - **Responsive throughout** — a desktop grid collapses to a single column, with the navigation becoming a panel.
+
+---
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="docs/readme/desktop.webp" alt="FitnessGym on a desktop screen" width="74%">
+  <img src="docs/readme/mobile.webp" alt="FitnessGym on a phone" width="22%">
+</p>
 
 ---
 
@@ -75,6 +88,12 @@ npm run deploy         # publish build/ to GitHub Pages
 
 ---
 
+## ♿ Accessibility
+
+An accessibility panel in the corner of every page changes text size, contrast, font and motion, and remembers the choice on the device. It sits on top of the markup and does not replace accessible markup.
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -101,3 +120,11 @@ FitnessGym-Project-React/
 ## 📄 License
 
 MIT © [Dawid Olko](https://dawidolko.pl)
+
+---
+
+## 👨‍💻 Author
+
+**Dawid Olko** · Fullstack / AI Developer
+
+[Portfolio](https://olkodawid.dawidolko.pl) · [CV](https://cv.dawidolko.pl) · [LinkedIn](https://www.linkedin.com/in/dawidolko/) · [GitHub](https://github.com/dawidolko)
