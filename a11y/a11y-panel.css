@@ -181,22 +181,53 @@
 }
 
 /* What each setting does to the page. */
-html.a11yp-size-110 body { zoom: 1.1; }
-html.a11yp-size-120 body { zoom: 1.2; }
-html.a11yp-size-130 body { zoom: 1.3; }
-html.a11yp-size-140 body { zoom: 1.4; }
+html.a11yp-size-110 body {
+  zoom: 1.1;
+}
+
+html.a11yp-size-120 body {
+  zoom: 1.2;
+}
+
+html.a11yp-size-130 body {
+  zoom: 1.3;
+}
+
+html.a11yp-size-140 body {
+  zoom: 1.4;
+}
 
 /* The panel sits inside the body, so it undoes that zoom and always fits the screen. */
-html.a11yp-size-110 .a11yp { zoom: 0.9091; }
-html.a11yp-size-120 .a11yp { zoom: 0.8333; }
-html.a11yp-size-130 .a11yp { zoom: 0.7692; }
-html.a11yp-size-140 .a11yp { zoom: 0.7143; }
+html.a11yp-size-110 .a11yp {
+  zoom: 0.9091;
+}
 
-html.a11yp-grayscale { filter: grayscale(1); }
-html.a11yp-invert { filter: invert(1) hue-rotate(180deg); background: #ffffff; }
+html.a11yp-size-120 .a11yp {
+  zoom: 0.8333;
+}
+
+html.a11yp-size-130 .a11yp {
+  zoom: 0.7692;
+}
+
+html.a11yp-size-140 .a11yp {
+  zoom: 0.7143;
+}
+
+html.a11yp-grayscale {
+  filter: grayscale(1);
+}
+
+html.a11yp-invert {
+  background: #ffffff;
+  filter: invert(1) hue-rotate(180deg);
+}
+
 html.a11yp-invert img,
 html.a11yp-invert video,
-html.a11yp-invert picture { filter: invert(1) hue-rotate(180deg); }
+html.a11yp-invert picture {
+  filter: invert(1) hue-rotate(180deg);
+}
 
 html.a11yp-contrast body,
 html.a11yp-contrast body *:not(svg, svg *, img, video, .a11yp, .a11yp *) {
