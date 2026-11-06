@@ -1,0 +1,16 @@
+# FitnessGym
+
+> FitnessGym is a demonstration gym website built with React by Dawid Olko. It presents training classes, trainers, membership plans, a supplement shop with a cart, a blog and a contact page.
+
+## Pages
+
+- [Home](https://fitnessgym.dawidolko.pl/): overview of the gym, classes, plans and trainers
+- [About](https://fitnessgym.dawidolko.pl/about/): the story of the gym and the people who run it
+- [Shop](https://fitnessgym.dawidolko.pl/shop/): protein, creatine, pre-workout and other products
+- [FAQ](https://fitnessgym.dawidolko.pl/faq/): answers about memberships, classes and payments
+- [Blog](https://fitnessgym.dawidolko.pl/blog/): articles on training, nutrition and motivation
+- [Contact](https://fitnessgym.dawidolko.pl/contact/): location, phone, email and contact form
+
+## Author
+
+- [Dawid Olko](https://dawidolko.pl): Fullstack / AI Developer, author of this project
