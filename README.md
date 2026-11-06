@@ -42,6 +42,14 @@ It is a static build published to GitHub Pages: no backend, no accounts, and ima
 
 ---
 
+## 🎬 Demo
+
+<p align="center">
+  <img src="docs/readme/demo.webp" alt="FitnessGym: a short scroll through the live site" width="80%">
+</p>
+
+---
+
 ## 🛠️ Technology Stack
 
 | Technology                    | Version | Role                                                   |
