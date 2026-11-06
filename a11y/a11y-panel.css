@@ -19,9 +19,14 @@
   right: 16px;
 }
 
+/* Sites set fonts and transitions on every element, so the panel resets what it inherits. */
 .a11yp *,
 .a11yp *::before {
   box-sizing: border-box;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  letter-spacing: normal;
+  text-transform: none;
+  transition: none;
 }
 
 .a11yp__toggle {
