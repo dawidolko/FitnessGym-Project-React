@@ -11,7 +11,7 @@ const CartProduct = (props) => {
   return (
     <tr className="cart__tr" key={id}>
       <td>
-        <img className="cart__img" src={img} alt={name} />
+        <img className="cart__img" src={img} alt={name} width="400" height="400" loading="lazy" />
       </td>
       <td className="cart__name">{name}</td>
       <td className="cart__price">${parseFloat(price).toFixed(2)}</td>

@@ -2,50 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://www.google.com; object-src 'none'; base-uri 'self'; form-action 'self'" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#369669" />
+    <meta name="author" content="Dawid Olko" />
+    <title>FitnessGym | Gym Classes, Trainers and Memberships</title>
     <meta
       name="description"
-      content="Discover FitnessGym - your ultimate fitness destination. Experience personalized workouts, top-notch equipment, and expert guidance. Join us for a journey to strength, health, and self-discovery. Your fitness transformation starts at FitnessGym!" />
-    <meta name="author" content="Dawid Olko" />
-    <link rel="icon" href="%PUBLIC_URL%/logo.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,500;1,700&display=swap"
-      rel="stylesheet" />
-    <title>FitnessGym</title>
-  
-    <!-- Canonical URL: the authoritative address for this page. -->
-    <link rel="canonical" href="https://fitnessgym.dawidolko.pl/" />
-
-    <!-- Open Graph / Twitter: controls how the page renders when shared. -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://fitnessgym.dawidolko.pl/" />
-    <meta property="og:title" content="FitnessGym — modern gym website" />
-    <meta property="og:description" content="Gym website with class schedules, memberships, a product shop and a blog. Built with React." />
-    <meta property="og:site_name" content="FitnessGym" />
-    <meta property="og:locale" content="en_US" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="FitnessGym — modern gym website" />
-    <meta name="twitter:description" content="Gym website with class schedules, memberships and a product shop." />
-
-    <!-- Structured data: lets search engines describe the business in results. -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ExerciseGym",
-        "name": "FitnessGym",
-        "url": "https://fitnessgym.dawidolko.pl",
-        "description": "Gym website with class schedules, memberships, a product shop and a blog.",
-        "author": { "@type": "Person", "name": "Dawid Olko", "url": "https://dawidolko.pl" }
+      content="FitnessGym is a demo gym website with training classes, expert trainers, membership plans, a supplement shop and a fitness blog, built with React." />
+    <link rel="icon" href="/logo.png" />
+    <link rel="preload" href="/fonts/montserrat-400-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <style>
+      @font-face {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/montserrat-400-latin.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
       }
-    </script>
+      @font-face {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/fonts/montserrat-400-latin.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
     <script src="/a11y/a11y-panel.js" data-accent="#1d4ed8" defer></script>
   </head>
   <body>

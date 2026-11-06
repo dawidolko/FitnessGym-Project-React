@@ -17,9 +17,14 @@ const MainBackground = () => {
 
 	return (
 		<header className="mainBackground">
-			<span className="mainBackground__arrow" onClick={prevSlide}>
+			<button
+				type="button"
+				className="mainBackground__arrow"
+				aria-label="Previous slide"
+				onClick={prevSlide}
+			>
 				<AiOutlineArrowLeft className="mainBackground__arrows" />
-			</span>
+			</button>
 			<div className="mainBackground__container">
 				{sliderItems.map((item, index) => (
 					<MainBackgroundItem
@@ -31,12 +36,14 @@ const MainBackground = () => {
 					/>
 				))}
 			</div>
-			<span
+			<button
+				type="button"
 				className="mainBackground__arrow mainBackground__arrow-right"
+				aria-label="Next slide"
 				onClick={nextSlide}
 			>
 				<AiOutlineArrowRight className="mainBackground__arrows" />
-			</span>
+			</button>
 		</header>
 	);
 };

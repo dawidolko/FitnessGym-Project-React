@@ -38,7 +38,7 @@ const CartContent = () => {
       ) : (
         <div className="cart__empty">
           <h2 className="cart__empty-title">Your cart is empty</h2>
-          <button className="cart__empty-btn" onClick={() => navigate("/shop")}>
+          <button className="cart__empty-btn" onClick={() => navigate("/shop/")}>
             Go To Shopping
           </button>
         </div>

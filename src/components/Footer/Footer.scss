@@ -35,7 +35,7 @@
   }
 
   &__title {
-    color: $main;
+    color: $main-on-dark;
     font-size: 2rem;
   }
 
@@ -63,7 +63,7 @@
   }
 
   &__logo-name {
-    color: $main;
+    color: $main-on-dark;
     font-weight: 500;
   }
 
@@ -80,7 +80,7 @@
   }
 
   &__icon {
-    color: $main;
+    color: $main-on-dark;
   }
 }
 
@@ -110,7 +110,7 @@
       transition: color 0.3s ease;
 
       &:hover {
-        color: $main;
+        color: $main-on-dark;
       }
     }
 

@@ -47,34 +47,34 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink className="navbar__link" to="/about" onClick={closeNav}>
+            <NavLink className="navbar__link" to="/about/" onClick={closeNav}>
               ABOUT
             </NavLink>
           </li>
           <li>
-            <NavLink className="navbar__link" to="/shop" onClick={closeNav}>
+            <NavLink className="navbar__link" to="/shop/" onClick={closeNav}>
               SHOP
             </NavLink>
           </li>
           <li>
-            <NavLink className="navbar__link" to="/faq" onClick={closeNav}>
+            <NavLink className="navbar__link" to="/faq/" onClick={closeNav}>
               FAQ
             </NavLink>
           </li>
           <li>
-            <NavLink className="navbar__link" to="/blog" onClick={closeNav}>
+            <NavLink className="navbar__link" to="/blog/" onClick={closeNav}>
               BLOG
             </NavLink>
           </li>
           <li>
-            <NavLink className="navbar__link" to="/contact" onClick={closeNav}>
+            <NavLink className="navbar__link" to="/contact/" onClick={closeNav}>
               CONTACT
             </NavLink>
           </li>
           <li>
             <NavLink
               className="navbar__cart-link"
-              to="/cart"
+              to="/cart/"
               onClick={closeNav}>
               <div className="navbar__cart">
                 <span className="navbar__quantity">{totalCartItems()}</span>

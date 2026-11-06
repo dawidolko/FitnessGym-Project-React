@@ -38,28 +38,28 @@ const LogoSlider = () => {
       <div className="slider__wrapper">
         <Slider {...settings}>
           <div className="slider__box">
-            <img src={logo1} alt="Gym Logo" />
+            <img src={logo1} alt="Gym Logo" width="200" height="200" loading="lazy" />
           </div>
           <div className="slider__box">
-            <img src={logo2} alt="Gym Logo" />
+            <img src={logo2} alt="Gym Logo" width="200" height="200" loading="lazy" />
           </div>
           <div className="slider__box">
-            <img src={logo3} alt="Gym Logo" />
+            <img src={logo3} alt="Gym Logo" width="200" height="200" loading="lazy" />
           </div>
           <div className="slider__box">
-            <img src={logo4} alt="Gym Logo" />
+            <img src={logo4} alt="Gym Logo" width="200" height="200" loading="lazy" />
           </div>
           <div className="slider__box">
-            <img src={logo1} alt="Gym Logo" />
+            <img src={logo1} alt="Gym Logo" width="200" height="200" loading="lazy" />
           </div>
           <div className="slider__box">
-            <img src={logo2} alt="Gym Logo" />
+            <img src={logo2} alt="Gym Logo" width="200" height="200" loading="lazy" />
           </div>
           <div className="slider__box">
-            <img src={logo3} alt="Gym Logo" />
+            <img src={logo3} alt="Gym Logo" width="200" height="200" loading="lazy" />
           </div>
           <div className="slider__box">
-            <img src={logo4} alt="Gym Logo" />
+            <img src={logo4} alt="Gym Logo" width="200" height="200" loading="lazy" />
           </div>
         </Slider>
       </div>

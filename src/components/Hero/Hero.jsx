@@ -1,10 +1,12 @@
 import "./Hero.scss";
 
 const Hero = (props) => {
+	const Heading = props.as || "h1";
+
 	return (
 		<section className="hero">
 			<div className={props.cName}>
-				<h2 className="hero__title">{props.title}</h2>
+				<Heading className="hero__title">{props.title}</Heading>
 			</div>
 		</section>
 	);

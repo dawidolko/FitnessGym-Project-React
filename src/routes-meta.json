@@ -1,0 +1,67 @@
+[
+  {
+    "path": "/",
+    "title": "FitnessGym | Gym Classes, Trainers and Memberships",
+    "description": "FitnessGym is a demo gym website with training classes, expert trainers, membership plans, a supplement shop and a fitness blog, built with React."
+  },
+  {
+    "path": "/about/",
+    "title": "About FitnessGym | Trainers, Classes and Our Story",
+    "description": "Meet the FitnessGym team: who we are, how we train, the experts who lead the classes and what members can expect from the gym."
+  },
+  {
+    "path": "/shop/",
+    "title": "FitnessGym Shop | Protein, Creatine and Pre-Workout",
+    "description": "Browse the FitnessGym shop for protein, creatine, pre-workout and other supplements, then add products to your cart in a few clicks."
+  },
+  {
+    "path": "/faq/",
+    "title": "FitnessGym FAQ | Answers About Training and Membership",
+    "description": "Answers to the questions FitnessGym hears most often about memberships, opening hours, classes, trainers and getting started at the gym."
+  },
+  {
+    "path": "/blog/",
+    "title": "FitnessGym Blog | Training, Nutrition and Fitness Tips",
+    "description": "Read the FitnessGym blog for practical advice on planning workouts, building strength, eating well and staying consistent with your goals."
+  },
+  {
+    "path": "/contact/",
+    "title": "Contact FitnessGym | Location, Phone and Email",
+    "description": "Get in touch with FitnessGym: find the location on the map, call or email the team, or send a message with the contact form on this page."
+  },
+  {
+    "path": "/cart/",
+    "title": "Your Shopping Cart | FitnessGym Supplement Shop",
+    "description": "Review the products in your FitnessGym shop cart, change quantities, check the total amount and confirm your order when you are ready."
+  },
+  {
+    "path": "/blog/1/",
+    "title": "Maximize Your Gym Time Effectively | FitnessGym Blog",
+    "description": "How to make the most of your gym time: plan each session carefully, set clear objectives and stay focused on the exercises that matter."
+  },
+  {
+    "path": "/blog/2/",
+    "title": "All You Need to Know About Fitness | FitnessGym Blog",
+    "description": "The fundamentals of fitness explained: workout routines, nutrition and recovery, and how they work together for a healthier lifestyle."
+  },
+  {
+    "path": "/blog/3/",
+    "title": "Fitness: A Path to a Sharper Mind | FitnessGym Blog",
+    "description": "Regular exercise does more than build muscle. Read how staying active supports focus, memory and mood in everyday life."
+  },
+  {
+    "path": "/blog/4/",
+    "title": "Start Your Fitness Journey Today | FitnessGym Blog",
+    "description": "Why today is the right day to begin: simple first steps for starting a fitness routine and building habits that last."
+  },
+  {
+    "path": "/blog/5/",
+    "title": "Personal Training: Where to Begin | FitnessGym Blog",
+    "description": "New to personal training? Learn what to expect, how to set goals with a trainer and how to get the most from your first sessions."
+  },
+  {
+    "path": "/blog/6/",
+    "title": "Train Like a Champion | FitnessGym Blog",
+    "description": "Adopt the habits of elite athletes: structured training, proper recovery and the discipline that unlocks your peak performance."
+  }
+]

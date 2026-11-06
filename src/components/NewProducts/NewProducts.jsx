@@ -25,7 +25,7 @@ const NewProducts = () => {
             <ShopProduct key={product.id} {...product} />
           ))}
       </div>
-      <button onClick={() => navigate("/shop")} className="shop__navigate">
+      <button onClick={() => navigate("/shop/")} className="shop__navigate">
         View All Products
       </button>
     </motion.section>

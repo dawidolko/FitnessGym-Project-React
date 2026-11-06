@@ -4,11 +4,11 @@ const ContactBox = (props) => {
 			<a
 				href={props.link}
 				target={props.target}
-				rel="noreferrer"
+				rel={props.target ? "noopener noreferrer" : undefined}
 				className="contact__link"
 			>
 				<span className="contact__icon">{props.icon}</span>
-				<h3 className="contact__box-title">{props.boxTitle}</h3>
+				<h2 className="contact__box-title">{props.boxTitle}</h2>
 				<p className="contact__box-details">{props.details}</p>
 			</a>
 		</div>

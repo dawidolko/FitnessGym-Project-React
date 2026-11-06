@@ -16,6 +16,11 @@ const MainBackgroundItem = ({ item, currentSlide, index = 0, isActive = true }) 
 	// motion.h1 / motion.h2 are distinct components, so the level is chosen here
 	// rather than through an `as` prop, which framer-motion does not accept.
 	const Heading = index === 0 ? motion.h1 : motion.h2;
+	/*
+	   The first slide is the page's largest paint and it is already in the
+	   prerendered HTML, so fading it in again would only delay it.
+	*/
+	const initial = index === 0 ? false : "initial";
 
 	return (
 		<div
@@ -23,12 +28,20 @@ const MainBackgroundItem = ({ item, currentSlide, index = 0, isActive = true }) 
 			style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
 		>
 			<div className="mainBackground__img">
-				<img className="mainBackground__image" src={item.img} alt={item.alt} />
+				<img
+					className="mainBackground__image"
+					src={item.img}
+					alt={item.alt}
+					width="736"
+					height="981"
+					loading={index === 0 ? "eager" : "lazy"}
+					fetchpriority={index === 0 ? "high" : "auto"}
+				/>
 			</div>
 			<div className="mainBackground__content" aria-hidden={!isActive}>
 				<Heading
 					variants={AnimationVariants.fadeIn}
-					initial="initial"
+					initial={initial}
 					animate={isInView ? "animate" : "initial"}
 					ref={ref}
 					className="mainBackground__title"
@@ -37,7 +50,7 @@ const MainBackgroundItem = ({ item, currentSlide, index = 0, isActive = true }) 
 				</Heading>
 				<motion.p
 					variants={AnimationVariants.fadeIn2}
-					initial="initial"
+					initial={initial}
 					animate={isInView ? "animate" : "initial"}
 					ref={ref}
 					className="mainBackground__text"
@@ -46,11 +59,15 @@ const MainBackgroundItem = ({ item, currentSlide, index = 0, isActive = true }) 
 				</motion.p>
 				<motion.div
 					variants={AnimationVariants.fadeIn2}
-					initial="initial"
+					initial={initial}
 					animate={isInView ? "animate" : "initial"}
 					ref={ref}
 				>
-					<Link className="mainBackground__link" to="/StrongZone/contact">
+					<Link
+						className="mainBackground__link"
+						to="/contact/"
+						tabIndex={isActive ? undefined : -1}
+					>
 						Join Us
 					</Link>
 				</motion.div>

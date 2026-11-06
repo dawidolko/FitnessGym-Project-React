@@ -5,7 +5,7 @@ const BlogItem = (props) => {
   return (
     <div className="blog__box">
       <div className="blog__overflow">
-        <img src={props.img} alt={props.alt} className="blog__img" />
+        <img src={props.img} alt={props.alt} className="blog__img" width="640" height="427" loading="lazy" />
       </div>
       <div className="blog__content">
         <div className="blog__icons">
@@ -19,7 +19,7 @@ const BlogItem = (props) => {
         <hr className="blog__line" />
         <h3 className="blog__title">{props.title}</h3>
         <p className="blog__text">{props.text}</p>
-        <Link className="blog__link" to={`/blog/${props.id}`}>
+        <Link className="blog__link" to={`/blog/${props.id}/`}>
           Read More
         </Link>
       </div>

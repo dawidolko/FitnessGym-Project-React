@@ -23,10 +23,16 @@
 		background-color: #ffffff15;
 		border-radius: 50%;
 		margin: auto;
+		padding: 0;
+		border: 0;
 		opacity: 0;
 		z-index: 2;
 		cursor: pointer;
 		transition: opacity 0.3s ease;
+
+		&:focus-visible {
+			opacity: 1;
+		}
 	}
 
 	&__arrows {

@@ -27,7 +27,7 @@ const Team = () => {
 			>
 				{teamData.map((item) => (
 					<div className="team__card" key={item.id}>
-						<img className="team__img" src={item.img} alt={item.alt} />
+						<img className="team__img" src={item.img} alt={item.alt} loading="lazy" />
 						<div className="team__text">
 							<h3 className="team__name">{item.name}</h3>
 							<div className="team__icons">

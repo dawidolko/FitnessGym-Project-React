@@ -6,6 +6,7 @@
 	align-items: center;
 	gap: 1em;
 	background-color: #2e2e2e;
+	color: #fff;
 
 	&__icon {
 		font-size: 20rem;
@@ -13,5 +14,13 @@
 
 	&__error {
 		font-size: 8rem;
+	}
+
+	&__link {
+		padding: 0.6em 1.2em;
+		border: 2px solid currentColor;
+		border-radius: 4px;
+		color: #fff;
+		font-size: 1.8rem;
 	}
 }

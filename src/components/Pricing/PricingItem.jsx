@@ -34,7 +34,7 @@ const PricingItem = ({ title, price, yoga, fashion, swimming, bestOffer }) => {
           </li>
         ))}
       </ul>
-      <Link className="pricing__link" to="/contact">
+      <Link className="pricing__link" to="/contact/">
         Join Now
       </Link>
     </div>

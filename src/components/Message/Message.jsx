@@ -11,7 +11,7 @@ const Message = () => {
         best. Let us know your preferences, and we’ll guide you to the perfect
         training plan.
       </p>
-      <Link className="message__link" to="/contact">
+      <Link className="message__link" to="/contact/">
         <AiOutlineMail className="message__icon" />
         CONTACT US
       </Link>

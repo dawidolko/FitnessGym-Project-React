@@ -8,7 +8,7 @@ const AboutContent = (props) => {
     <section className="about container">
       <div className="about__container container">
         <div className="about__img-container">
-          <img className="about__img" src={img} alt={alt} />
+          <img className="about__img" src={img} alt={alt} loading="lazy" />
         </div>
         <div className="about__content ">
           <h2 className="about__title">

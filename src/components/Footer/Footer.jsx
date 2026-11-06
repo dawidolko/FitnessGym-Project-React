@@ -24,46 +24,46 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer__box">
-            <h3 className="footer__title">Useful Links</h3>
+            <h2 className="footer__title">Useful Links</h2>
             <ul className="footer__links">
               <li>
-                <Link to="/about" className="footer__link">
+                <Link to="/about/" className="footer__link">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/faq" className="footer__link">
+                <Link to="/faq/" className="footer__link">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="footer__link">
+                <Link to="/blog/" className="footer__link">
                   Blog
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="footer__link">
+                <Link to="/contact/" className="footer__link">
                   Contact
                 </Link>
               </li>
             </ul>
           </div>
           <div className="footer__box">
-            <h3 className="footer__title">Opening Hours</h3>
+            <h2 className="footer__title">Opening Hours</h2>
             <p>Mon To Fri</p>
             <p>07:00 AM - 11:00 PM</p>
             <p>Sat To Sun</p>
             <p>09:00 AM - 10:00 PM</p>
           </div>
           <div className="footer__box">
-            <h3 className="footer__title">Contact</h3>
+            <h2 className="footer__title">Contact</h2>
             <div className="footer__contact">
               <FaLocationArrow className="footer__icon" />
               <a
                 className="footer__link"
                 href="https://maps.app.goo.gl/jKPN2oKWiUrcJuuD9"
                 target="_blank"
-                rel="noreferrer">
+                rel="noopener noreferrer">
                 38 Park Avenue New York
               </a>
             </div>
